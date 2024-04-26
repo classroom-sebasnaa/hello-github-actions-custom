@@ -1,60 +1,46 @@
 <header>
 
-# Hola GitHub Actions
+# Hello GitHub Actions
 
 _Crea y ejecuta un flujo de trabajo de GitHub Actions._
 
 </header>
 
-## Paso 1: Crear un archivo de flujo de trabajo
+## Bienvenido
 
-_¡Bienvenido a "Hola GitHub Actions"! :wave:_
+La automatización es clave para optimizar tus procesos de trabajo, y [GitHub Actions](https://docs.github.com/actions) es la mejor manera de potenciar tu flujo de trabajo.
 
-**¿Qué es _GitHub Actions_?**: GitHub Actions es una forma flexible de automatizar casi todos los aspectos del flujo de trabajo de software de tu equipo. Puedes automatizar pruebas, implementaciones continuas, revisar código, gestionar problemas y Pull Requests, y mucho más. La mejor parte es que estos flujos de trabajo se almacenan como código en tu repositorio y se pueden compartir y reutilizar fácilmente entre equipos. Para obtener más información, consulta estos recursos:
+- **¿Para quién es esto?**: Desarrolladores, ingenieros DevOps, estudiantes, gerentes, equipos, usuarios de GitHub.
+- **Lo que aprenderás**: Cómo crear archivos de flujo de trabajo, activar flujos de trabajo y encontrar registros de flujo de trabajo.
+- **Qué construirás**: Un flujo de trabajo de Actions que verificará las referencias de códigos cortos de emoji en archivos Markdown.
+- **Requisitos previos**: En este curso trabajarás con problemas y solicitudes de extracción, así como editar archivos. Recomendamos que primero hagas el curso de [Introducción a GitHub](https://github.com/skills/introduction-to-github).
+- **Duración**: Este curso se puede completar en menos de dos horas.
 
-- La página de Actions de GitHub Actions, consulta [GitHub Actions](https://github.com/features/actions).
-- La documentación de usuario de "GitHub Actions", consulta [GitHub Actions](https://docs.github.com/actions).
+En este curso, aprenderás:
 
-**¿Qué es un _flujo de trabajo_?**: Un flujo de trabajo es un proceso automatizado configurable que ejecutará uno o más trabajos. Los flujos de trabajo se definen en archivos especiales en el directorio `.github/workflows` y se ejecutan en función del evento que elijas. Para este ejercicio, utilizaremos un evento `pull_request`.
+1. Crear un flujo de trabajo
+2. Agregar un trabajo
+3. Agregar un paso de ejecución
+4. Fusionar tu solicitud de extracción
+5. Ver el efecto del flujo de trabajo
 
-- Para obtener más información sobre flujos de trabajo, trabajos y eventos, consulta "[Entendiendo GitHub Actions](https://docs.github.com/en/actions/learn-github-actions/understanding-github-actions)".
-- Si quieres aprender más sobre el evento `pull_request` antes de usarlo, consulta "[pull_request](https://docs.github.com/en/developers/webhooks-and-events/webhooks/webhook-events-and-payloads#pull_request)".
+### Cómo comenzar este curso
 
-Para empezar, ejecutamos un flujo de trabajo de Actions en tu nuevo repositorio que, entre otras cosas, creó una rama para que trabajes en ella, llamada `welcome-workflow`.
+[![comenzar-curso](https://user-images.githubusercontent.com/1221423/235727646-4a590299-ffe5-480d-8cd5-8194ea184546.svg)](https://github.com/new?template_owner=skills&template_name=hello-github-actions&owner=%40me&name=skills-hello-github-actions&description=Mi+repositorio+clonado&visibility=public)
 
-### :keyboard: Actividad: Crear un archivo de flujo de trabajo
-
-1. Abre una nueva pestaña del navegador y navega hasta este mismo repositorio. Luego, trabaja en los pasos en tu segunda pestaña mientras lees las instrucciones en esta pestaña.
-1. Crea una solicitud de extracción. Esto contendrá todos los cambios que realizarás en esta parte del curso.
-
-   Haz clic en la pestaña **Pull Requests**, haz clic en **New pull request**, establece `base: spanish` y `compare:welcome-workflow`, haz clic en **Create pull request**, luego haz clic en **Create pull request** nuevamente.
-
-1. Navega hasta la pestaña **Código**.
-1. Desde el menú desplegable de la rama **spanish**, haz clic en la rama **welcome-workflow**.
-1. Navega hasta la carpeta `.github/workflows/`, luego selecciona **Agregar archivo** y haz clic en **Crear nuevo archivo**.
-1. En el campo **Nombrar tu archivo**, ingresa `welcome.yml`.
-1. Agrega el siguiente contenido al archivo `welcome.yml`:
-
-   ```yaml copy
-   name: Post welcome comment
-   on:
-     pull_request:
-       types: [opened]
-   permissions:
-     pull-requests: write
-   ```
-
-1. Para confirmar tus cambios, haz clic en **Commit changes**.
-2. Escribe un mensaje de confirmación, selecciona **Confirmar directamente en la rama welcome-workflow** y haz clic en **Commit changes**.
-3. Espera aproximadamente 20 segundos, luego actualiza esta página (la que estás siguiendo las instrucciones). Un flujo de trabajo de Actions separado en el repositorio (no el flujo de trabajo que creaste) se ejecutará y reemplazará automáticamente el contenido de este archivo README con instrucciones para el próximo paso.
-
+1. Haz clic derecho en **Comenzar curso** y abre el enlace en una nueva pestaña.
+2. En la nueva pestaña, la mayoría de los campos se completarán automáticamente para ti.
+   - Para el propietario, elige tu cuenta personal o una organización para alojar el repositorio.
+   - Recomendamos crear un repositorio público, ya que los repositorios privados usarán [minutos de Actions](https://docs.github.com/en/billing/managing-billing-for-github-actions/about-billing-for-github-actions).
+   - Desplázate hacia abajo y haz clic en el botón **Crear repositorio** en la parte inferior del formulario.
+3. Después de que se cree tu nuevo repositorio, espera unos 20 segundos, luego actualiza la página. Sigue las instrucciones paso a paso en el README del nuevo repositorio.
 
 <footer>
 
 ---
 
-Get help: [Post in our discussion board](https://github.com/orgs/skills/discussions/categories/hello-github-actions) &bull; [Review the GitHub status page](https://www.githubstatus.com/)
+Obtén ayuda: [Publica en nuestro foro de discusión](https://github.com/orgs/skills/discussions/categories/hello-github-actions) &bull; [Revisa la página de estado de GitHub](https://www.githubstatus.com/)
 
-&copy; 2023 GitHub &bull; [Code of Conduct](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md) &bull; [MIT License](https://gh.io/mit)
+&copy; 2023 GitHub &bull; [Código de conducta](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md) &bull; [Licencia MIT](https://gh.io/mit)
 
 </footer>
