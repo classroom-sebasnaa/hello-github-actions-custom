@@ -21,11 +21,11 @@ Para comenzar, ejecutamos un flujo de trabajo de Actions en tu nuevo repositorio
 1. Abre una nueva pestaña del navegador y navega hasta este mismo repositorio. Luego, trabaja en los pasos en tu segunda pestaña mientras lees las instrucciones en esta pestaña.
 1. Crea una solicitud de extracción. Esto contendrá todos los cambios que realizarás en esta parte del curso.
 
-    Haz clic en la pestaña **Pull Requests**, luego en **New pull request**, establece `base: spanish` y `compare:welcome-workflow`, haz clic en **Create pull request**, luego haz clic en **Create pull request** nuevamente.
+    Haz clic en la pestaña **Pull Requests**, luego en **New pull request**, establece `base: ${{ github.event.repository.default_branch }}` y `compare:welcome-workflow`, haz clic en **Create pull request**, luego haz clic en **Create pull request** nuevamente.
 
 
 1. Navega a la pestaña **Code**.
-2. Desde el menú desplegable de la rama **spanish**, haz clic en la rama **welcome-workflow**.
+2. Desde el menú desplegable de la rama **${{ github.event.repository.default_branch }}**, haz clic en la rama **welcome-workflow**.
 3. Navega hasta la carpeta `.github/workflows/`, luego selecciona **Add file** y haz clic en **Create new file**.
 4. En el campo **Name your file**, ingresa `welcome.yml`.
 5. Agrega el siguiente contenido al archivo `welcome.yml`:

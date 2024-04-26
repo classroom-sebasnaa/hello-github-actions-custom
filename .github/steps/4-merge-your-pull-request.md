@@ -2,7 +2,7 @@
 
 _¡Ahora puedes escribir y ejecutar un flujo de trabajo de Actions! :sparkles:_
 
-Fusiona tus cambios para que la acción sea parte de la rama `spanish`.
+Fusiona tus cambios para que la acción sea parte de la rama `${{ github.event.repository.default_branch }}`.
 
 ### :keyboard: Actividad: Fusiona tu archivo de flujo de trabajo
 

@@ -5,7 +5,7 @@ _¡Buen trabajo! :tada: ¡Has agregado un archivo de flujo de trabajo!_
 Aquí está lo que significan las entradas en el archivo `welcome.yml`, en la rama `welcome-workflow`:
 
 - `name: Post welcome comment` le da a tu flujo de trabajo un nombre. Este nombre aparecerá en la pestaña Actions de tu repositorio.
-- `en: pull_request: types: [opened]` indica que tu flujo de trabajo se ejecutará cada vez que alguien abra una solicitud de extracción en tu repositorio.
+- `on: pull_request: types: [opened]` indica que tu flujo de trabajo se ejecutará cada vez que alguien abra una solicitud de extracción en tu repositorio.
 - `permissions` asigna permisos al flujo de trabajo para operar en el repositorio.
 - `pull-requests: write` le da al flujo de trabajo permiso para escribir en las solicitudes de extracción. Esto es necesario para crear el comentario de bienvenida.
 
