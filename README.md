@@ -26,7 +26,11 @@ En este curso, aprenderás:
 
 ### Cómo comenzar este curso
 
-[![comenzar-curso](https://user-images.githubusercontent.com/1221423/235727646-4a590299-ffe5-480d-8cd5-8194ea184546.svg)](https://github.com/new?template_owner=skills&template_name=hello-github-actions&owner=%40me&name=skills-hello-github-actions&description=Mi+repositorio+clonado&visibility=public)
+<!-- [![comenzar-curso](https://user-images.githubusercontent.com/1221423/235727646-4a590299-ffe5-480d-8cd5-8194ea184546.svg)](https://github.com/new?template_owner=skills&template_name=hello-github-actions&owner=%40me&name=skills-hello-github-actions&description=Mi+repositorio+clonado&visibility=public) -->
+
+[![comenzar-curso](https://user-images.githubusercontent.com/1221423/235727646-4a590299-ffe5-480d-8cd5-8194ea184546.svg)](hhttps://github.com/new?template_name=hello-github-actions-custom&template_owner=classroom-sebasnaa)
+
+
 
 1. Haz clic derecho en **Comenzar curso** y abre el enlace en una nueva pestaña.
 2. En la nueva pestaña, la mayoría de los campos se completarán automáticamente para ti.
