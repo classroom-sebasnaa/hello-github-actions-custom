@@ -27,7 +27,7 @@ En este curso, aprenderás:
 
 ### Cómo comenzar este curso siendo stemdoer
 
-Simplemente espera, esta vista cambiara. 
+Simplemente espera, esta vista cambiará. 
 Haz click en la pestaña ``Actions`` y observa algo se está ejecutando.
 
 ### No eres stemdoer
