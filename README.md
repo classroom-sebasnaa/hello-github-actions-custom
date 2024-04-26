@@ -24,9 +24,16 @@ En este curso, aprenderás:
 4. Fusionar tu solicitud de extracción
 5. Ver el efecto del flujo de trabajo
 
-### Cómo comenzar este curso
 
-<!-- [![comenzar-curso](https://user-images.githubusercontent.com/1221423/235727646-4a590299-ffe5-480d-8cd5-8194ea184546.svg)](https://github.com/new?template_owner=skills&template_name=hello-github-actions&owner=%40me&name=skills-hello-github-actions&description=Mi+repositorio+clonado&visibility=public) -->
+### Cómo comenzar este curso siendo stemdoer
+
+Simplemente espera, esta vista cambiara. 
+Haz click en la pestaña ``Actions`` y observa algo se está ejecutando.
+
+### No eres stemdoer
+
+Adelante haz click en el botón.
+
 
 [![comenzar-curso](https://user-images.githubusercontent.com/1221423/235727646-4a590299-ffe5-480d-8cd5-8194ea184546.svg)](https://github.com/new?template_name=hello-github-actions-custom&template_owner=classroom-sebasnaa&description=Mi+repositorio+clonado&visibility=public)
 
