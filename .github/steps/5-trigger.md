@@ -12,7 +12,7 @@ El script de shell en el flujo de trabajo se ejecutará cada vez que se abra una
 
 1. Crea una nueva rama llamada `test-workflow`.
 2. Realiza un cambio, como agregar un emoji a tu archivo README.md, y confirma el cambio directamente en tu nueva rama.
-3. En la pestaña **Pull requests**, crea una pull request que fusionará `test-workflow` en `${{ github.event.repository.default_branch }}`.
+3. En la pestaña **Pull requests**, crea una pull request que fusionará `test-workflow` en `stemdo`.
 4. Observa el flujo de trabajo en ejecución en la sección de comprobaciones de la pull request.
 5. Observa el comentario que el flujo de trabajo agrega a la pull request.
 6. Espera unos 20 segundos, luego actualiza esta página (la que estás siguiendo las instrucciones). Otro flujo de trabajo se ejecutará y reemplazará el contenido de este archivo README con instrucciones para el próximo paso.
